@@ -1,6 +1,6 @@
 # RoboSense
-RoboSense, a Large-scale Dataset and Benchmark for Multi-sensor Low-speed Autonomous Driving. Corresponding paper has been released on <a href="https://arxiv.org/pdf/2408.15503">arXiv</a>. Code and dataset will be coming soon. Please stay tuned!
-
+RoboSense, a Large-scale Dataset and Benchmark for Multi-sensor Low-speed Autonomous Driving. Code and dataset will be coming soon. Please stay tuned!
+<!-- Corresponding paper has been released on <a href="https://arxiv.org/pdf/2408.15503">arXiv</a>. -->
 
 ## Sensor Setup and Coordinate System
 
