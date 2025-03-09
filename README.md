@@ -21,7 +21,9 @@ ArXiv Preprint ([arXiv 2408.15503](https://arxiv.org/abs/2408.15503))
 ## Table of Contents
 - [Introduction](#introduction)
 - [Sensor Setup and Coordinate System](#sensor-setup-and-coordinate-system)
+- [Dataset Example](#dataset-example)
 - [Dataset Comparison](#dataset-comparison)
+- [Dataset Download](#dataset-download)
 - [Benchmark Setup](#benchmark-setup)
 - [Contact](#contact)
 - [Citation](#citation)
@@ -30,19 +32,26 @@ ArXiv Preprint ([arXiv 2408.15503](https://arxiv.org/abs/2408.15503))
 ## Introduction
 Reliable embodied perception from an egocentric perspective is challenging yet essential for autonomous navigation technology of intelligent mobile agents. With the growing demand of social robotics, near-field scene understanding becomes an important research topic in the areas of egocentric perceptual tasks related to navigation in both crowded and unstructured environments. Due to the complexity of environmental conditions and difficulty of surrounding obstacles owing to truncation and occlusion, the perception capability under this circumstance is still inferior. To further enhance the intelligence of mobile robots, in this paper, we setup an egocentric multi-sensor data collection platform based on 3 main types of sensors (Camera, LiDAR and Fisheye), which supports flexible sensor configurations to enable dynamic sight of view from ego-perspective, capturing either near or farther areas. Meanwhile, a large-scale multimodal dataset is constructed, named RoboSense, to facilitate egocentric robot perception. Specifically, RoboSense contains more than 133K synchronized data with 1.4M 3D bounding box and IDs annotated in the full $360^{\circ}$ view, forming 216K trajectories across 7.6K temporal sequences. It has $270\times$ and $18\times$ as many annotations of surrounding obstacles within near ranges as the previous datasets collected for autonomous driving scenarios such as KITTI and nuScenes. Moreover, we define a novel matching criterion for near-field 3D perception and prediction metrics. Based on RoboSense, we formulate 6 popular tasks to facilitate the future research development, where the detailed analysis as well as benchmarks are also provided accordingly. Data desensitization measures have been conducted for privacy protection.
 
+
+## Sensor Setup and Coordinate System
+<div align="center">
+<img src="assets/robosense.png" width="700"/>
+</div>
+
+
+## Dataset Example
 <div align="center">
 <img src="assets/example.png" width="770"/>
 </div>
 
 
-## Sensor Setup and Coordinate System
-
-<div align="center">
-<img src="assets/robosense.png" width="700"/>
-</div>
-
 ## Dataset Comparison
 <div align="center"><img src="assets/comparison.png" width="900"/></div>
+
+
+## Dataset Download
+Coming soon... ☕️
+
 
 ## Benchmark Setup
 <div align="center"><img src="assets/benchmark_setup.png" width="900"/></div>
@@ -50,7 +59,6 @@ Reliable embodied perception from an egocentric perspective is challenging yet e
 
 ## Contact
 If you have any questions, please contact [Haisheng Su](https://scholar.google.com.hk/citations?user=OFrMZh8AAAAJ&hl=zh-CN) via email (suhaisheng@sjtu.edu.cn).
-
 
 ## Citation
 If you find RoboSense is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
