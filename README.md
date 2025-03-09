@@ -1,4 +1,5 @@
 <div align="center">
+<img src="assets/icon.png" width="80">
 <h1>RoboSense</h1>
 <h3>Large-scale Dataset and Benchmark for Egocentric Robot Perception and Navigation in Crowded and Unstructured Environments</h3>
 
