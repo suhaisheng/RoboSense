@@ -9,9 +9,9 @@
 
 (<sup>:email:</sup>) corresponding author, yanjunchi@sjtu.edu.cn
 
-<!-- ArXiv Preprint ([arXiv 2408.15503](https://arxiv.org/abs/2408.15503)) -->
+<!-- ArXiv Preprint ([arXiv 2408.15503]()) -->
 
-![Paper](https://img.shields.io/badge/cs.CV-2408.15503-b31b1b?logo=arxiv&logoColor=red)
+[![Paper](https://img.shields.io/badge/cs.CV-2408.15503-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2408.15503)
 
 </div>
 
