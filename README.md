@@ -7,7 +7,7 @@
 
 <sup>1</sup> School of AI and Department of CSE, SJTU, <sup>2</sup> SenseAuto Research
 
-(<sup>:email:</sup>) corresponding author, yanjunchi@sjtu.edu.cn
+:email:: Corresponding author, yanjunchi@sjtu.edu.cn
 
 <!-- ArXiv Preprint ([arXiv 2408.15503]()) -->
 
@@ -60,6 +60,9 @@ Coming soon... ☕️
 ## Benchmark Setup
 <div align="center"><img src="assets/benchmark_setup.png" width="900"/></div>
 
+## License <a name="license"></a>
+
+All assets and code are under the [CC-BY-NC-ND](./LICENSE) unless specified otherwise.
 
 ## Contact
 If you have any questions, please contact [Haisheng Su](https://scholar.google.com.hk/citations?user=OFrMZh8AAAAJ&hl=zh-CN) via email (suhaisheng@sjtu.edu.cn).
