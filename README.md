@@ -14,6 +14,7 @@ ArXiv Preprint ([arXiv 2408.15503](https://arxiv.org/abs/2408.15503))
 
 
 ## News
+* **` Mar. 9th, 2025`:** Our paper has been accepted to CVPR 2025!
 * **` Aug. 25th, 2024`:** We released our paper on [Arxiv](https://arxiv.org/abs/2408.15503). Code and dataset are coming soon. Please stay tuned! ☕️
 
 
