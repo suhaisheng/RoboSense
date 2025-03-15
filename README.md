@@ -8,7 +8,7 @@
 <sup>1</sup> School of AI and Department of CSE, SJTU \
 <sup>2</sup> SenseAuto Research, <sup>3</sup> Tsinghua University
 
-:email:: Corresponding author, yanjunchi@sjtu.edu.cn
+<sup>:email:</sup> Corresponding author, yanjunchi@sjtu.edu.cn
 
 <!-- ArXiv Preprint ([arXiv 2408.15503]()) -->
 
