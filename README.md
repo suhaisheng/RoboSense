@@ -3,9 +3,10 @@
 <h1>RoboSense</h1>
 <h3>Large-scale Dataset and Benchmark for Egocentric Robot Perception and Navigation in Crowded and Unstructured Environments</h3>
 
-[Haisheng Su](https://scholar.google.com.hk/citations?user=OFrMZh8AAAAJ&hl=zh-CN)<sup>1,2</sup>, Feixiang Song<sup>2</sup>, Cong Ma<sup>2</sup>, [Wei Wu](https://scholar.google.com.hk/citations?hl=zh-CN&user=9RBxtd8AAAAJ)<sup>2</sup>, [Junchi Yan](https://thinklab.sjtu.edu.cn/)<sup>1 :email:</sup>
+[Haisheng Su](https://scholar.google.com.hk/citations?user=OFrMZh8AAAAJ&hl=zh-CN)<sup>1,2</sup>, Feixiang Song<sup>2</sup>, Cong Ma<sup>2</sup>, [Wei Wu](https://scholar.google.com.hk/citations?hl=zh-CN&user=9RBxtd8AAAAJ)<sup>2,3</sup>, [Junchi Yan](https://thinklab.sjtu.edu.cn/)<sup>1 :email:</sup>
 
-<sup>1</sup> School of AI and Department of CSE, SJTU, <sup>2</sup> SenseAuto Research
+<sup>1</sup> School of AI and Department of CSE, SJTU \
+<sup>2</sup> SenseAuto Research, <sup>3</sup> Tsinghua University
 
 :email:: Corresponding author, yanjunchi@sjtu.edu.cn
 
