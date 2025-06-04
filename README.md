@@ -38,10 +38,6 @@ RoboSense is a large-scale multimodal dataset constructed to facilitate egocentr
 
 ## Key Features 🔑 <a name="keyfeatures"></a>
 
-133K synchronized data with 1.4M 3D bounding box and
-IDs annotated in the full 360◦view, forming 216K trajecto-
-ries across 7.6K temporal sequences. I
-
 - **133k+** synchronized frames of **4C+4F+4L** sensor data.
 - **1.4 million+** 3D bounding boxes and IDs annotated in the full 360°view.
 - **7.6K** temporal sequences across 6 kinds of target domains (i.e., scenic spots, parks, squares, campuses, streets and sidewalks).
