@@ -29,8 +29,21 @@ RoboSense is a large-scale multimodal dataset constructed to facilitate egocentr
 * It has $270\times$ and $18\times$ as many annotations of surrounding obstacles within near ranges as the previous datasets collected for autonomous driving scenarios such as KITTI and nuScenes. 
 * Based on RoboSense, we formulate 6 benchmarks of both perception and prediction tasks to facilitate the future research development. -->
 
+
+## Table of Contents
+1. [News](#news)
+2. [Key Features](#keyfeatures)
+3. [Sensor Setup and Coordinate System](#sensor-setup-and-coordinate-system)
+4. [Dataset Example](#dataset-example)
+5. [Getting started](#installation)
+6. [Contact](#contact)
+7. [Citation](#citation)
+<!-- - [Dataset Download](#dataset-download) -->
+<!-- - [Benchmark Setup](#benchmark-setup) -->
+
+
 <!-- ## News -->
-## News📰 <a name="news"></a>
+## News 📰 <a name="news"></a>
 * **`[2025/06/05]`:** 🤖  <span style="color: #B91C1C; font-weight: bold;">RoboSense dataset released, including training/validation splits.</span>
 * **`[2025/03/09]`:** Our paper has been accepted to CVPR 2025, [[Poster]](./assets/cvpr2025_robosense_poster.png)!
 * **`[2024/08/25]`:** We released our paper on [Arxiv](https://arxiv.org/abs/2408.15503). Code and dataset are coming soon. Please stay tuned! ☕️
@@ -44,16 +57,6 @@ RoboSense is a large-scale multimodal dataset constructed to facilitate egocentr
 - **216K+** trajectories of objects.
 - **270x and 18x** as many annotations of near-field obstacles as KITTI and nuScenes.
 - **6 benchmarks** for both perception and prediction tasks.
-
-
-## Table of Contents
-- [Sensor Setup and Coordinate System](#sensor-setup-and-coordinate-system)
-- [Dataset Example](#dataset-example)
-- [Dataset Download](#dataset-download)
-- [Contact](#contact)
-- [Citation](#citation)
-<!-- - [Benchmark Setup](#benchmark-setup) -->
-
 
 
 ## Sensor Setup and Coordinate System
@@ -109,7 +112,7 @@ huggingface-cli download --resume-download --repo-type dataset suhaisheng0527/Ro
 ```
 
 
-- Combine all splitted files for image and LiDAR&OCC repectively.
+- Combine all splitted files for image and LiDAR&OCC respectively.
 
 ```bash
 cd dataset
@@ -140,7 +143,7 @@ python scripts/visualize_dataset.py --task-id 390 --dataset-path /path/to/lerobo
 ## Evaluation
 <!-- <div align="center"><img src="assets/benchmark_setup.png" width="900"/></div> -->
 
-**Evaluating perception models with our metrics (CCDP: Closest-
+**Evaluating perception models with our proposed metrics (CCDP: Closest-
 Collision Distance Proportion matching function).**
 
 Coming soon... ☕️
