@@ -99,7 +99,7 @@ RoboSense is a large-scale multimodal dataset constructed to facilitate egocentr
 
 #### Installation <a name="installation"></a>
 
-Download our source code:
+- Download our source code:
 ```bash
 git clone https://github.com/suhaisheng/RoboSense.git
 cd RoboSense
