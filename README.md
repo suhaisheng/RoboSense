@@ -36,8 +36,10 @@ RoboSense is a large-scale multimodal dataset constructed to facilitate egocentr
 3. [Sensor Setup and Coordinate System](#sensor-setup-and-coordinate-system)
 4. [Dataset Example](#dataset-example)
 5. [Getting started](#installation)
-6. [Contact](#contact)
-7. [Citation](#citation)
+6. [Tools](#tools)
+7. [Evaluation](#evaluation)
+8. [Contact](#contact)
+9. [Citation](#citation)
 <!-- - [Dataset Download](#dataset-download) -->
 <!-- - [Benchmark Setup](#benchmark-setup) -->
 
@@ -139,15 +141,41 @@ We adapt and extend the dataset visualization script from [LeRobot Project](http
 python scripts/visualize_dataset.py --task-id 390 --dataset-path /path/to/lerobot/format/dataset
 ``` -->
 
+## Tools <a name="tools"></a>
 
-## Evaluation
+- Visualize the dataset sample.
+
+```bash
+cd scripts
+python visualize_dataset.py
+```
+
+
+- Generate the occupancy label.
+
+```bash
+cd scripts
+python occ_label_gen.py
+```
+
+## Evaluation <a name="evaluation"></a>
 <!-- <div align="center"><img src="assets/benchmark_setup.png" width="900"/></div> -->
 
-**Evaluating perception models with our proposed metrics (CCDP: Closest-
-Collision Distance Proportion matching function).**
+- Evaluating perception models with our proposed metrics (CCDP: Closest-
+Collision Distance Proportion matching function).
 
-Coming soon... ☕️
+```bash
+cd evaluation
+cd det_metrics
+python robosense_evaluator.py
+```
 
+- Evaluating prediction results.
+
+```bash
+cd evaluation
+python evaluate_motion.py
+```
 
 ## License <a name="license"></a>
 
