@@ -109,8 +109,8 @@ if __name__ == "__main__":
    
     # gt_file = '~/gt.pkl'
     # res_file = '~/det.pkl'
-    gt_file = '/Users/suhaisheng/Desktop/backup0628/robosense/global_splits/robosense_local_val.pkl'
-    res_file = '/Users/suhaisheng/Desktop/backup0628/robosense/robosense_scripts/evaluation/sample_result.txt'
+    gt_file = '~/robosense_local_val.pkl'
+    res_file = '~/sample_result.txt'
     evaluator = RoboSenseEvaluator(gt_file)
 
     with open(gt_file, 'rb') as f:
