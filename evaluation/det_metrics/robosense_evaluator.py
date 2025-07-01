@@ -12,7 +12,7 @@ builtins.unicode = str
 
 
 class RoboSenseEvaluator():
-    def __init__(self, gt_file, point_cloud_range=[0, -46.0, -1, 92, 46.0, 4],
+    def __init__(self, gt_file, point_cloud_range=[-44.8, -44.8, -1, 44.8, 44.8, 4],
                  drop_out_range=True,
                  match_type='distance',
                  thresholds=[0.05,0.05,0.05]):
@@ -109,8 +109,8 @@ if __name__ == "__main__":
    
     # gt_file = '~/gt.pkl'
     # res_file = '~/det.pkl'
-    gt_file = '~/robosense_local_val.pkl'
-    res_file = '~/det_results.txt'
+    gt_file = '/Users/suhaisheng/Desktop/backup0628/robosense/global_splits/robosense_local_val.pkl'
+    res_file = '/Users/suhaisheng/Desktop/backup0628/robosense/robosense_scripts/evaluation/sample_result.txt'
     evaluator = RoboSenseEvaluator(gt_file)
 
     with open(gt_file, 'rb') as f:
