@@ -210,12 +210,11 @@ def motion_traj_generate(track_stat,gt_locations,gt_track_id,velo_path_list,fram
 
 if __name__ == "__main__":
     ## processing GT file
-    track_file = '/Users/suhaisheng/Desktop/backup0628/robosense/global_splits/robosense_global_val.pkl'
+    track_file = '~/robosense_global_val.pkl'
     track_data = pkl.load(open(track_file, 'rb'))
 
     ## processing det file
-    # det_file = '/mnt/lustrenew/suhaisheng/robosense_exp/pointpillar_livox_v0.16_clean_results/results.txt'
-    det_file = '/Users/suhaisheng/Desktop/backup0628/robosense/robosense_scripts/evaluation/pp_results.txt'
+    det_file = '~/sample_results.txt'
     det_data = open(det_file, 'r').readlines()
 
     seq_dict = defaultdict(list)
