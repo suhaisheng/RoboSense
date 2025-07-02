@@ -83,12 +83,10 @@ def gt_to_bboxes_v2(gt_file, index):
     objs = gt_file
     for i in range(objs['name'].shape[0]):
         cls = label_dict[objs['name'][i]]
-        dimensions = np.array(objs['dimensions'][i])[:, [1,0,2]]
+        dimensions = np.array(objs['dimensions'][i])[[1,0,2]]
         rotation = -(objs['rotation_y'][i] + np.pi/2)
 
-        bbox = objs['location'][i].tolist() + dimensions.tolist() +\
-            [rotation]
-
+        bbox = objs['location'][i].tolist() + dimensions.tolist() + [rotation]
         bboxes_dict[cls].append(bbox)
     return bboxes_dict
 
@@ -431,7 +429,6 @@ def evaluate_results(gt_file, pred_file,
 
     pred_dict = dict()
     for pred in pred_file:
-        # from ipdb import set_trace; set_trace()
         pred_dict[str(pred['velodyne_path'])] = pred
 
     for i in range(len(gt_file)):
@@ -439,8 +436,6 @@ def evaluate_results(gt_file, pred_file,
         if i%(len(gt_file)//10) == 0:
             print("current:%d total:%d ratio:%.3f"%(i,len(gt_file),i/len(gt_file)),flush=True)
 
-        # gt_bboxes = gt_to_bboxes_v2(gt_file[i], i)
-        # pred_bboxes = pred_to_bboxes(pred_file[i])
         gt_bboxes={}
         if drop_out_range:
             gt_bboxes= gt_to_bboxes_drop_outofrange(gt_file[i][0], i, point_cloud_range)
