@@ -161,7 +161,7 @@ python occ_label_gen.py
 ## Evaluation <a name="evaluation"></a>
 <!-- <div align="center"><img src="assets/benchmark_setup.png" width="900"/></div> -->
 
-- Evaluating perception models with our proposed metrics (CCDP: Closest-
+- Evaluating detection models with our proposed metrics (CCDP: Closest-
 Collision Distance Proportion matching function).
 
 ```bash
@@ -170,12 +170,23 @@ cd det_metrics
 python robosense_evaluator.py
 ```
 
-- Evaluating prediction results.
+- Evaluating motion prediction results.
 
 ```bash
 cd evaluation
 python evaluate_motion.py
 ```
+
+- Evaluating occupancy prediction results.
+
+```bash
+cd evaluation
+python evaluate_occ.py
+```
+
+- As for multi-object tracking result evaluation, please refer to this repo: [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT).
+
+
 
 ## License <a name="license"></a>
 
